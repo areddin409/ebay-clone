@@ -19,8 +19,7 @@ const Home: NextPage = () => {
   const { data: listings, isLoading: loadingListings } =
     useActiveListings(contract);
 
-  console.log(`🚀 ~ file: index.tsx ~ line 18 ~ listings`, listings);
-
+  console.log(`🚀 ~ file: index.tsx ~ line 20 ~ listings`, listings);
   return (
     <div className=''>
       <Head>
